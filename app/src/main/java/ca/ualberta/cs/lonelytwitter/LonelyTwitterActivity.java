@@ -40,21 +40,43 @@ public class LonelyTwitterActivity extends Activity {
 			public void onClick(View v) {
 				Tweet tweet = new ImportantTweet("");
 				NormalTweet tweet1 = new NormalTweet("");
+
+				CurrentMood mood = new VitalMood("");
+				NormalMood mood1 = new NormalMood("");
+
 				try {
 					tweet.setMessage("Hello");
 				} catch (TweetTooLongException e){
 					//e.printStackTrace();
 				}
+
+				mood.setMessage("peaceful");
+
 				ArrayList<Tweet> tweets = new ArrayList<Tweet>();
 				tweets.add(tweet);
 				tweets.add(tweet1);
+
+				ArrayList<CurrentMood> moods = new ArrayList<CurrentMood>();
+				moods.add(mood);
+				moods.add(mood1);
+
 				for (Tweet t : tweets){
 					Log.d("Some Tag", "The isImportant method on this object returns " + t.isImportant());
+				}
+
+
+				for (CurrentMood m : moods){
+					Log.d("A tag", "isVital method returns " + m.isVital());
 				}
 
 				ArrayList<Tweetable> tweetables = new ArrayList<Tweetable>();
 				tweetables.add(tweet);
 				tweetables.add(tweet1);
+
+
+				ArrayList<Moodable> moodables = new ArrayList<Moodable>();
+				moodables.add(mood);
+				moodables.add(mood1);
 
 
 				setResult(RESULT_OK);
