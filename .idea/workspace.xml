@@ -6,16 +6,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ded480-8b50-4a68-a93c-650b2b0e07b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/Team_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivityTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivityTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/ImportantTweet.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/ImportantTweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/NormalTweet.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/NormalTweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweet.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/TweetTooLongException.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/TweetTooLongException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweetable.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweetable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lonelyTwitter.iml" afterPath="$PROJECT_DIR$/lonelyTwitter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/ImportantTweet.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/ImportantTweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivityTest.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivityTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/NormalTweet.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/NormalTweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/Tweet.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/Tweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/TweetTooLongException.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/TweetTooLongException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/Tweetable.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/Tweetable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/ImportantTweet.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/ImportantTweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/LonelyTwitterActivity.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/LonelyTwitterActivity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/LonelyTwitterActivityTest.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/LonelyTwitterActivityTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/NormalTweet.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/NormalTweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/Tweet.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/Tweet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/TweetTooLongException.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/TweetTooLongException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/Tweetable.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/class-use/Tweetable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-frame.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-summary.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-tree.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-use.html" afterPath="$PROJECT_DIR$/doc/ca/ualberta/cs/lonelytwitter/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/help-doc.html" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/serialized-form.html" afterPath="$PROJECT_DIR$/doc/serialized-form.html" />
     </list>
     <ignored path="lonelyTwitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1819,8 +1844,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="61" />
+    <option name="x" value="60" />
+    <option name="y" value="46" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
   </component>
@@ -2240,7 +2265,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="61" width="1440" height="807" extended-state="0" />
+    <frame x="60" y="46" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
