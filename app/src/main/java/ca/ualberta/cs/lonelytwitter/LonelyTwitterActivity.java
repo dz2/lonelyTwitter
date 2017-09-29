@@ -1,3 +1,13 @@
+/*
+ * Class Name: LonelyTwitterActivity
+ *
+ * Version: 1.0
+ *
+ * Date: September 28, 2017
+ *
+ * Copyright (c) Team 3. CMPUT301. University of Alberta. All Rights Reserved. You may use, distribute or modify the code under terms and conditions of the Code of Students Behavior at University of Alberta
+ */
+
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
@@ -25,6 +35,20 @@ import android.widget.ListView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+/**
+ * Represents the main activity
+ *
+ * @author Di Zhang
+ * @version 1.0
+ * @see Activity
+ * @see NormalTweet
+ * @see ImportantTweet
+ * @see Tweet
+ * @see Tweetable
+ * @see TweetTooLongException
+ * @since 1.0
+ *
+ */
 public class LonelyTwitterActivity extends Activity {
 
 	private static final String FILENAME = "file.sav";
@@ -33,8 +57,12 @@ public class LonelyTwitterActivity extends Activity {
 
 	private ArrayList<Tweet> tweetList;
 	private ArrayAdapter<Tweet> adapter;
-	
-	/** Called when the activity is first created. */
+
+	/**
+	 * Called when activity is first created.
+	 *
+	 * @param savedInstanceState
+	 */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -94,7 +122,7 @@ public class LonelyTwitterActivity extends Activity {
 		}
 
 	}
-	
+
 	private void saveInFile() {
 		try {
 			FileOutputStream fos = openFileOutput(FILENAME,
