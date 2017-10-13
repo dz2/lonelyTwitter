@@ -1,7 +1,7 @@
 package ca.ualberta.cs.lonelytwitter;
 import android.test.ActivityInstrumentationTestCase2;
 /**
- * Created by irenegao on 10/12/17.
+ * Created by dz2 on 10/12/17.
  */
 
 public class TweetListTest extends ActivityInstrumentationTestCase2 {
@@ -40,5 +40,13 @@ public class TweetListTest extends ActivityInstrumentationTestCase2 {
         list.add(tweet);
         Tweet returnedTweet = list.getTweet(0);
         assertEquals(returnedTweet.getMessage(),tweet.getMessage());
+    }
+
+    public void testCountTweet(){
+        TweetList list = new TweetList();
+        Tweet tweet = new NormalTweet("test");
+        list.add(tweet);
+        assertEquals(list.countTweet(), 1);
+
     }
 }

@@ -3,11 +3,12 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.ArrayList;
 
 /**
- * Created by irenegao on 10/12/17.
+ * Created by dz2 on 10/12/17.
  */
 
 public class TweetList {
     private ArrayList<Tweet> tweets = new ArrayList<Tweet>();
+    private int count = 0;
 
     public TweetList(){
 
@@ -29,6 +30,12 @@ public class TweetList {
     public Tweet getTweet(int index){
         return tweets.get(index);
 
+    }
+
+    public int countTweet(){
+        for (;count <= tweets.size() -1 ; count++) {
+        }
+        return count;
     }
 
 }
