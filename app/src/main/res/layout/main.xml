@@ -15,7 +15,7 @@
         android:layout_width="fill_parent"
         android:layout_height="263dp"
         android:layout_weight="1"
-        android:scrollbars="vertical" >
+        android:scrollbars="vertical">
 
     </ListView>
 
@@ -35,7 +35,7 @@
         android:id="@+id/clear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/clear" />
+        android:text="Clear" />
 
     <Button
         android:id="@+id/save"
