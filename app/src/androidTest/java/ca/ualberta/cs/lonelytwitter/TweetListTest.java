@@ -2,6 +2,10 @@ package ca.ualberta.cs.lonelytwitter;
 
 import android.test.ActivityInstrumentationTestCase2;
 
+import ca.ualberta.cs.lonelytweet.NormalTweet;
+import ca.ualberta.cs.lonelytweet.Tweet;
+import ca.ualberta.cs.lonelytweet.TweetList;
+
 public class TweetListTest extends ActivityInstrumentationTestCase2 {
 
     public TweetListTest(){

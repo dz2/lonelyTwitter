@@ -8,7 +8,8 @@ import android.widget.ListView;
 
 import com.robotium.solo.Solo;
 
-import junit.framework.TestCase;
+import ca.ualberta.cs.lonelytweet.EditTweetActivity;
+import ca.ualberta.cs.lonelytweet.Tweet;
 
 public class LonelyTwitterActivityTest extends ActivityInstrumentationTestCase2<LonelyTwitterActivity> {
     private Solo solo;

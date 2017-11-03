@@ -1,4 +1,4 @@
-package ca.ualberta.cs.lonelytwitter;
+package ca.ualberta.cs.lonelytweet;
 
 import java.util.Date;
 
@@ -6,7 +6,8 @@ public abstract class Tweet implements Tweetable {
     private String message;
     private Date date;
 
-    public Tweet(String message){
+    //fixed warning that change the visibility to make it weaker
+    private Tweet(String message){
         this.message = message;
         this.date = new Date();
     }

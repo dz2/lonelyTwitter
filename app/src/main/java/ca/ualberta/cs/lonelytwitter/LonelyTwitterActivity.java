@@ -1,7 +1,6 @@
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -10,10 +9,8 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Date;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -26,6 +23,10 @@ import android.widget.ListView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import ca.ualberta.cs.lonelytweet.EditTweetActivity;
+import ca.ualberta.cs.lonelytweet.NormalTweet;
+import ca.ualberta.cs.lonelytweet.Tweet;
+
 public class LonelyTwitterActivity extends Activity {
 
 	private static final String FILENAME = "file.sav";
@@ -34,7 +35,9 @@ public class LonelyTwitterActivity extends Activity {
 	private ArrayList<Tweet> tweetList = new ArrayList<Tweet>();
 	private ArrayAdapter<Tweet> adapter;
 
-	private LonelyTwitterActivity activity = this;
+
+	//fixed warning to make it final
+	private final LonelyTwitterActivity activity = this;
 
 
 
